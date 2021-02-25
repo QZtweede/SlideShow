@@ -12,10 +12,11 @@ body{
 }
 
 .Image-Container{
-height: 400px;
-width: 600px;
-overflow: hidden;
-display: flex; 
+    position: absolute;
+    height: 400px;
+    width: 600px;
+    overflow: hidden;
+    display: flex; 
     align-items: center;
     justify-content: center; 
 }
