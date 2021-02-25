@@ -5,7 +5,6 @@ html, body{
 }
 
 body{
-    /* /* background: red; */
      display: flex; 
     align-items: center;
     justify-content: center; 
@@ -13,7 +12,7 @@ body{
 
 .Image-Container{
     position: absolute;
-    height: 400px;
+    height: 350px;
     width: 600px;
     overflow: hidden;
     display: flex; 
@@ -23,4 +22,22 @@ body{
 
 img{
     position: absolute;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#img1.fade{
+    opacity: 1;
+}
+
+#img2.fade{
+    opacity: 1;
+}
+
+#img3.fade{
+    opacity: 1;
+}
+
+#img4.fade{
+    opacity: 1;
 }
